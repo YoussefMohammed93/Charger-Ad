@@ -1,3 +1,4 @@
+import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
 import { Banner } from "@/components/banner";
 import { Features } from "@/components/features";
@@ -12,6 +13,8 @@ export default function LandingPage() {
     <>
       {/* Banner */}
       <Banner />
+      {/* Hero */}
+      <Hero />
       {/* Product Section */}
       <ProductSection />
       {/* Radio Groups Section */}
