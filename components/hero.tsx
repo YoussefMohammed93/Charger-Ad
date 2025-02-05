@@ -11,7 +11,7 @@ export const Hero = () => {
       transition={{ duration: 1, ease: "easeOut" }}
     >
       <motion.div
-        className="flex justify-center mt-12"
+        className="flex justify-center mt-12 py-28"
         initial={{ scale: 0.9 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
