@@ -13,14 +13,18 @@ export const Banner = () => {
       transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       <motion.p
-        className="text-primary text-3xl md:text-5xl font-bold p-2 rounded-lg inline-block"
+        className="text-primary text-3xl md:text-5xl lg:text-7xl font-black p-2 rounded-lg inline-block"
+        style={{
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+          lineHeight: 1.75,
+        }}
         initial={{ scale: 0.9, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.3, duration: 0.6, ease: "easeIn" }}
       >
-        توصيل مجاني + تخفيض <span className="text-[#B88E2F]"> 50% </span>الى
-        غاية منتصف الليل
+        توصيل مجاني + تخفيض <span className="text-[#B88E2F]">50%</span> الى غاية
+        منتصف الليل
       </motion.p>
     </motion.section>
   );
