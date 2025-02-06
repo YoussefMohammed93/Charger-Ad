@@ -172,7 +172,7 @@ export const ProductSection = () => {
                           type="submit"
                           className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-[#F57C00] to-[#8F4800] hover:from-[#F57C00] hover:to-[#8F4800] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                         >
-                          اشترى الذن
+                          اشترى الآن
                         </button>
                       </div>
                     </form>

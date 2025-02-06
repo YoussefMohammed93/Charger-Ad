@@ -20,7 +20,7 @@ export const Banner = () => {
         transition={{ delay: 0.3, duration: 0.6, ease: "easeIn" }}
       >
         توصيل مجاني + تخفيض <span className="text-[#B88E2F]"> 50% </span>الى
-        غاية و منتصف الليل
+        غاية منتصف الليل
       </motion.p>
     </motion.section>
   );
