@@ -1,11 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Cairo } from "next/font/google";
+
+const cairo = Cairo({
+  weight: ["400", "700"],
+  subsets: ["arabic"],
+  display: "swap",
+});
 
 export const Banner = () => {
   return (
     <motion.section
-      className="bg-cover bg-center text-white p-8 sm:p-12 md:p-16 mb-20 text-center"
+      className={`bg-cover bg-center text-white p-8 sm:p-12 md:p-16 mb-20 text-center ${cairo.className}`}
       style={{ backgroundImage: "url('/image-1.png')" }}
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -13,7 +20,7 @@ export const Banner = () => {
       transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       <motion.p
-        className="text-primary text-3xl md:text-5xl lg:text-7xl font-black p-2 rounded-lg inline-block"
+        className="text-primary text-3xl md:text-5xl lg:text-6xl font-black p-2 rounded-lg inline-block"
         style={{
           textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
           lineHeight: 1.75,
